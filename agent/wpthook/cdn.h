@@ -190,6 +190,7 @@ CDN_PROVIDER cdnList[] = {
   {".cedexis.net", "Cedexis"},
   {".streamprovider.net", "Rocket CDN"},
   {".singularcdn.net.br", "Singular CDN"},
+  {".iponlycdn.net", "IP-Only CDN"},
   {"END_MARKER", "END_MARKER"}
 };
 
@@ -242,6 +243,9 @@ CDN_PROVIDER_HEADER cdnHeaderList[] = {
   {"server", "Roast.io", "Roast.io"},
   {"server", "SingularCDN", "Singular CDN"},
   {"x-rocket-node", "", "Rocket CDN"}
+  {"X-Storage", "", "IP-Only CDN"}
+  {"X-Edge-IP", "", "IP-Only CDN"}
+  {"X-Edge-Location", "", "IP-Only CDN"}
 };
 
 // Specific providers that require multiple headers
